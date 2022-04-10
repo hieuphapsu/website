@@ -1,0 +1,28 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.sideBar{
+    background-color: #000000;
+    height: 100vh;
+}
+
+.contentSidebar{
+    padding: 10px 50px 10px 10px;
+    border-bottom: 1px #606060 solid;
+}
+
+.contentSidebar>a{
+    color: white;
+    text-decoration: none;
+}
+
+.conTent{
+    margin:0 120px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
